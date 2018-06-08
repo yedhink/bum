@@ -56,7 +56,9 @@ _____________________________|______________________________
 ## Installation
 
 ```sh
-pip3 install --user bum
+git clone https://github.com/yedhink/bum
+cd bum
+pip3 install --user .
 ```
 
 
@@ -80,11 +82,3 @@ optional arguments:
   --server SERVER       Use a remote server instead of localhost.
 ```
 
-
-## Donate
-
-Donations will allow the creator of the project to spend more time working on `bum`.
-
-If you like `bum` and want to give back in some way you can donate here:
-
-**https://patreon.com/dyla**
