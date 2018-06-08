@@ -25,7 +25,10 @@ def init(port=6600, server="localhost"):
 def get_art(cache_dir, size, client):
     """Get the album art."""
     song = client.currentsong()
-
+    elap = client.status()
+    print(song["title"], song["artist"])
+    print("\n")
+    print(elap["elapsed"])
     if len(song) < 2:
         print("album: Nothing currently playing.")
         return
